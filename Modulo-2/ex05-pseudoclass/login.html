@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login e Formulário</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
+    <script>
+        function login() {
+            const user = document.getElementById("user").value.trim();
+            const pass = document.getElementById("pass").value.trim();
+            
+            if (!user || !pass) {
+                alert("Preencha todos os campos!");
+                return;
+            }
+            
+            if (user === "admin" && pass === "1234") {
+                localStorage.setItem("auth", "true");
+                window.location.href = "formulario.html";
+            } else {
+                alert("Credenciais inválidas!");
+            }
+        }
+    </script>
+</head>
+<body>
+    <div>
+        <h2>Login</h2>
+        <input type="text" id="user" placeholder="Usuário">
+        <input type="password" id="pass" placeholder="Senha">
+        <button type="button" onclick="login()">Entrar</button>
+    </div>
+</body>
+</html>
