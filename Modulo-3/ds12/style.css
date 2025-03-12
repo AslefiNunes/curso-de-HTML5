@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+body{
+    background-color: white;
+}
+
+header{
+    background-color: black;
+}
+
+header > h1{
+    color: white;
+
+}
+
+header > p{
+    color: white;
+}
+
+section.normal{
+    text-align: justify;
+}
+
+section.imagen{
+    background-color: rgba(0, 0, 0, 0.222);
+}
