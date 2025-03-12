@@ -17,10 +17,12 @@ header > p{
     color: white;
 }
 
-section.normal{
+#normal{
     text-align: justify;
+    width: 300px;
 }
 
-section.imagen{
+#imagen{
     background-color: rgba(0, 0, 0, 0.222);
+    width: 300px;
 }
