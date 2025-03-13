@@ -32,18 +32,18 @@ header{
 
 header > h1 {
     font-family: var(--fonte2);
-    font-size: 80px;
+    font-size: 8em;
 }
 
 header > p{
-    font-size: 20px;
+    font-size: 2em;
     padding-bottom: 30px;
 }
 
 p > a {
     text-decoration: none;
     color: white;
-    font-family: var(--fonte3);
+    font-family: var(--fonte2);
 }
 
 p > a:hover{
@@ -51,6 +51,52 @@ p > a:hover{
     text-decoration: underline;
 }
 
+section{
+    margin: 40px 0px 40px 20px;
+}
+
 section > p{
+    margin-left: 20px;
+    height: 50vh;
+    width: 80vh;
     font-family: var(--fonte3);
+    font-size: 4.5em;
+}
+
+#normal{
+    display: inline-block;
+    background-color: white;
+}
+#imagen{
+    height: 55vw;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+section#imagen > p {
+    display: inline-block;
+    color: white;
+}
+
+section.img01{
+    background-image: url(imagens/background001.jpg);
+}
+
+section.img02{
+    background-image: url(imagens/background002.jpg);
+}
+
+footer{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 50px 0px 0px 0px;
+    background-color: rgba(0, 0, 0, 0.786);
+    padding: 10px;
+}
+
+nav > p {
+
+    text-align: center;
+    color: white;
+    font-size: 1.2em;
 }
