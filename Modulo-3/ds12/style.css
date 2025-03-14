@@ -57,14 +57,12 @@ section{
 
 section > p{
     margin-left: 20px;
-    height: 50vh;
     width: 80vh;
     font-family: var(--fonte3);
     font-size: 4.5em;
 }
 
 #normal{
-    display: inline-block;
     background-color: white;
 }
 #imagen{
