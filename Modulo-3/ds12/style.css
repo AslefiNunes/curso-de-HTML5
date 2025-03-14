@@ -56,26 +56,28 @@ section{
 }
 
 section > p{
-    margin:40px;
-    margin-left: 20px;
-    padding-left: 20px;
-    width: 80vh;
+    margin:30px;
+    width: 40vw;
     font-family: var(--fonte3);
-    font-size: 4vw;
+    font-size: 3vw;
+    
 }
 
 #normal{
+    padding: 10px;
     background-color: white;
 }
 #imagen{
+    height: 50vw;
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
 }
 
 section#imagen > p {
-    background-color: rgba(0, 0, 0, 0.537);
     display: inline-block;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.537);    
     color: white;
 }
 
