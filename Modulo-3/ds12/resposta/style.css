@@ -1,1 +1,69 @@
 @charset "UTF-8";
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    transition: 0.2;
+}
+/*text-transform: uppercase; - TODAS AS LETRA EM CAIXA ALTA*/
+html, body{
+    min-height: 100vh;
+    background-color:darkcyan
+}
+
+header{
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+header > h1{
+    padding-top: 50px;
+    font-variant: small-caps; /*Ajusta a Primeira Letra*/
+}
+
+header > p {
+    padding-bottom: 50px;
+}
+
+a{
+    color: white;
+    font-weight: bolder;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+
+}
+
+section.normal{
+    background-color: white;
+    color: black;
+}
+
+section.imagen{
+    background-color: rgba(43, 43, 43, 0.821);
+    color: white;
+
+}
+
+.imagen > p {
+    background-color: rgba(0, 0, 0, 0.359);
+    width: 500px;
+}
+
+footer{
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+}
